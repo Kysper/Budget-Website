@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+  font-family: "Open Sans";
+  font-size: 24px;
+  display: block;
+}
+
+.top {
+  background: linear-gradient(black, skyblue);
+  padding-bottom: 20px;
+}
+
+.budget {
+  color: white;
+}
+
+.budget__title {
+  position: relative;
+  font-size: 34px;
+  text-align: center;
+}
+
+.budget__value {
+  position: relative;
+  color: white;
+  left: 22%;
+  width: 55%;
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.budget__income {
+  background: skyblue;
+  height: 50px;
+  max-width:20%;
+  margin-left: 40%;
+  border-radius: 20px;
+}
+
+.budget__income--text {
+  float: left;
+  font-size: 25px;
+  width:auto;
+  padding: 8px 5px 2px 10px;
+}
+
+.budget__income--value {
+  float: left;
+  padding: 8px 5px 2px 30%;
+}
+
+.budget__expenses {
+  background: rgb(255, 0, 85);
+  height: 50px;
+  max-width: 20%;
+  margin: 20px 0px 0px 40%;
+  border-radius: 20px;
+}
+
+.budget__expenses--text {
+  position: relative;
+  float: left;
+  font-size: 25px;
+  width:auto;
+  padding: 8px 5px 2px 10px;
+}
+.budget__expenses--value {
+  float: left;
+  padding: 8px 5px 2px 5%;
+  width:120px;
+}
+
+.budget__expenses--percentage {
+  float: left;
+  font-size: 24px;
+  margin-top:8px;
+  overflow:auto; 
+}
+
+.add__container {
+  position: relative;
+  background: lightgray;
+  border: 2px solid gray;
+  height: 80px;
+  padding: 20px 0px 0px 30%;
+}
+
+.add__type {
+  width: 50px;
+  height: 30px;
+}
+.add__description {
+  width: 500px;
+  height: 30px;
+}
+
+.add__value {
+  width: 200px;
+  height: 30px;
+}
+
+.add__btn {
+  width: 30px;
+  height: 30px;
+}
+
+.container {
+    position:relative;
+}
+
+.icome__title{
+    position: relative;
+    background:lightskyblue;
+    text-align: center;
+    margin:30px;
+    left:50%;
+    box-shadow: 2px 2px 8px black;
+}
+.income__list{
+    clear:both;
+    position: relative;
+    left:50%;
+    min-width:500px;
+    width:auto;
+    padding:.5%;
+    border-radius:10px;
+}
+
+.item-inc{  border:1px solid gray;
+    box-shadow: 2px 2px 8px black;
+    background: lightblue;
+    padding:10px;
+    /* width:auto; */
+    overflow:auto;
+    margin-bottom:5px;
+}
+
+.item__description{
+    float:left;
+    width:300px;
+    text-align: left;
+    
+}
+
+.item__value{
+    float:left;
+}
+
+.item__delete--btn{
+    text-align: center;
+    float:right;
+    width:40px;
+    height: 40px;
+    font-size:30px;
+    border:none;
+    background:none;
+    color:red;
+}
+
+.income{
+    float:left;
+}
+
+.expenses{
+    float:right;
+    position: relative;
+    right:20%;
+    background:red;
+    text-align: center;
+    margin:30px;
+    height: 50px;
+    width:400px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.expenses__list{
+    clear:both;
+    position: relative;
+     width:auto;
+    padding:.5%;
+    margin-top:30px;
+    border-radius:10px;
+}
+.item-exp{
+    border:1px solid gray;
+    box-shadow: 2px 2px 8px black;
+    background:lightcoral;
+    padding:10px;
+    margin-bottom:5px;
+    min-width:500px;
+    width:auto;
+    overflow:auto;
+}
+
+.date-due{
+    position: relative;
+    width:140px;
+    font-size:15px;
+    float:left;
+}
+
+.item__percentage{
+     float:right;
+    font-size:14px;
+    padding-top:5px;
+}
