@@ -1,7 +1,7 @@
 # Budget Website
 
-# INFO
- Responsive Budget Websiate that allows the user to input incomes and expenses into input fields and return a total budget left.
+# Info
+ Responsive Budget Website that allows the user to input incomes and expenses into input fields and return a total budget left.
 As well as what percentage of the income went where in the expenses.
 <hr>
 
